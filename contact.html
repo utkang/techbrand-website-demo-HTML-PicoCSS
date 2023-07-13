@@ -18,8 +18,31 @@
       <li><a href="./contact.html" role="button">Reach Us!</a></li>
     </ul>
   </nav>
-  <header>
-    <h1 id="pageTop" class="container">Reach us!</h1>
-  </header>
+  <main class="container">
+    <header>
+      <h1>Reach us!</h1>
+    </header>
+    <section>
+      <p>If you want to reach us, you can fill the form below. We'll contact you later.</p>
+    </section>
+    <form>
+      <div class="grid">
+        <label for="firstname">
+          First name
+          <input type="text" id="firstname" name="firstname" placeholder="First name" required>
+        </label>
+        <label for="lastname">
+          Last name
+          <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
+        </label> 
+      </div>
+
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" placeholder="Email address" required>
+      <small>We'll never share your email with anyone else.</small>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
 </body>
 </html>
